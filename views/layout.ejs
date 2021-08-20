@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <base href = "https://bc-certificate.herokuapp.com/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./process.js"></script>
+    <script src=" ./scripts/web3.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class = "head">
+    <button class="btn btn-lg"><a href="/certificate"> Get Certificate </a></button>
+    <button id = "connectMM" type="button" class="btn btn-primary btn-lg">Connect</button>
+   
+    </div>
+    
+    <div id="RegisterCom">
+        <br><h3 id="title-register">Đăng ký làm Quizz Nhận Bằng lưu trên BlockChain</h3></body></br>
+        <div id= "frmDangKy">
+            
+            <br>
+                <h5>Họ Tên </h5>
+                <input id ="txtName" type ="text"   />
+            </br>
+            <br>
+                <h5>Email </h5>
+                <input id ="txtEmail" type ="text"  />
+            </br>
+            
+            <br>
+                <h5>Số Điện Thoại </h5>
+                <input id ="txtSoDT" type ="text"   />
+            </br>
+            <br>
+            <h5>CMND / Passport</h5>
+            <input id ="txtCmnd" type ="text"   />
+            </br>
+            <br><h5>Phí Đăng Ký: 0.05 Ether</h5></br>
+
+            <div class= "submit">
+                <button class="btn btn-primary btn-lg btn-block" id = "btnDangKy" >Đăng ký</button>
+            </div>
+        </div>
+    </div>
+    <div class= "thisquiz" id="quizzpart">
+        <div id="middle">
+        <button class = "btn btn-primary btn-lg" id="OpenQuizz">Start the Quizz</button>    
+         </div>
+    <div name = "frmQuiz" id ="frmQuiz" class="QuizForm"></div>
+    <button class = "btn btn-primary btn-lg" id="Submit">Submit question</button>    
+    </div>
+   
+    <div class="loader"></div>
+    <h1 id="FinalScore"></h1>
+    <div id="middle"><h4 id="Hash"></h4></div>
+    <footer>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

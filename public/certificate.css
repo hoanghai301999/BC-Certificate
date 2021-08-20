@@ -1,0 +1,25 @@
+
+.head{
+    margin: auto;
+    border: 17px solid orange;
+    background-color: orange;
+    text-align: right;
+    height: 110%;
+}
+
+#button{
+    padding-top: 5%;
+    width:65%   ;
+    margin:auto;
+    align-items: center;
+    text-align: center;
+}
+
+#display {
+  padding-top: 5%;
+  text-align:center;
+}
+
+#color{
+  color: red;
+}

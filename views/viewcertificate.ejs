@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href = "https://bc-certificate.herokuapp.com/certificate" />
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>mini game</title>
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+       <script src="./process2.js"></script>
+       <script src=" ./scripts/web3.js"></script>
+       <link rel="stylesheet" href="./certificate.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   </head>
+<body>
+    <div class = "head">
+        <button class="btn btn-lg"><a href="/"> Register </a></button>
+         
+    </div>
+
+    <div id ="display">
+        <h1><%= status[0].Name %></h1> 
+        <h3>ID: <%= status[0].id %></h3>
+        <h3>Address: <%= status[0].Address %></h3>
+        <h3 id="color">Your Quizz Score: <%= status[0].Grade %> %</h3>
+        <h3>Date: <%= status[0].Time %></h3>
+    </div>
+</body>
+</html>

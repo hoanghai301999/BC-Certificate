@@ -1,0 +1,122 @@
+body{
+    font-size: 20;
+    margin:auto;
+    height: 100%;
+   
+    
+}
+.head{
+    margin: auto;
+    border: 17px solid orange;
+    background-color: orange;
+    text-align: right;
+    height: 110%;
+    
+}
+h2 {
+    text-align:center;
+}
+
+#middle{
+    text-align:center;
+}
+#status{
+    padding-top: 7%;
+    text-align:center;
+    
+}
+#footer{
+    padding-top: 100px;
+    margin: auto;
+    border: 30px solid orange;
+    background-color: orange;
+    padding-bottom: 50px;
+  
+}
+#connectMM{
+    size: large;
+}
+
+#title-register{
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+
+#frmDangKy {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    border: 10px;
+    margin:auto;
+   
+
+}
+
+
+#frmDangKy input {
+    width: 100%;
+
+}
+input[type="radio"]{
+    margin: 0 20px 0 10px;
+  }
+
+.submit{
+    text-align: center;
+
+}
+
+
+.submit #btnDangKy{
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.thisquiz{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10%;
+    border: 10px;
+    margin:auto;
+}
+
+
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #FinalScore{
+      text-align: center;
+      padding-top: 60px;
+  }
